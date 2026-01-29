@@ -2,6 +2,10 @@
 
 Una aplicación de escritorio para gestionar torneos de fútbol con sistema de eliminatorias.
 
+## Información
+No me ha dejado subirte el archivo.zip con todo. Hay dos carpetas que no me ha dejado subir (dist y venv).
+TE ENVIO EL .EXE Y EL MANUAL CON EL LINK DEL REPOSITORIO A EDUCAMOS
+
 ## Características
 
 - Gestión de Equipos: Crear, editar y eliminar equipos participantes
@@ -113,4 +117,5 @@ Torneo_Futbol/
 - PySide6 - Interfaz gráfica (Qt6)
 - SQLite - Base de datos
 - Qt Designer - Diseño de interfaces
+
 
