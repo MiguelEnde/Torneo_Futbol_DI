@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,5">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="titulo">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>32</pointsize>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(106, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+           </property>
+           <property name="text">
+            <string>Partidos y Eliminatorias</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_nuevo">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../RESOURCES/iconos/add_16110940.png</normaloff>../../RESOURCES/iconos/add_16110940.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_resultado">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Resultado</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_eliminar">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../RESOURCES/iconos/remove_7695824.png</normaloff>../../RESOURCES/iconos/remove_7695824.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_calendario">
+            <attribute name="title">
+             <string>Calendario</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QTableWidget" name="tabla_partidos">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(39, 39, 39);</string>
+               </property>
+               <column>
+                <property name="text">
+                 <string>ID</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>FECHA/HORA</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>EQ LOCAL</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>EQ VISITANTE</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>ÁRBITRO</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>ELIMINATORIA</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>ESTADO</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_eliminatorias">
+            <attribute name="title">
+             <string>Cuadro Eliminatorio</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QTreeWidget" name="tree_eliminatorias">
+               <column>
+                <property name="text">
+                 <string>Eliminatoria</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Enfrentamientos</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_resultados">
+            <attribute name="title">
+             <string>Resultados</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QTableWidget" name="tabla_resultados">
+               <column>
+                <property name="text">
+                 <string>FECHA</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>EQ LOCAL</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>RESULTADO</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>EQ VISITANTE</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>ELIMINATORIA</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>85</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>ÁRBITRO</string>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

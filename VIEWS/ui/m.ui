@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Gestor de Torneo</string>
+  </property>
+
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="header">
+      <property name="minimumHeight">
+       <number>80</number>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <layout class="QHBoxLayout" name="contentLayout">
+      <item>
+       <widget class="QFrame" name="navPanel">
+        <property name="minimumWidth">
+         <number>200</number>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <widget class="QWidget" name="pageInicio"/>
+        <widget class="QWidget" name="pageEquipos"/>
+        <widget class="QWidget" name="pageParticipantes"/>
+        <widget class="QWidget" name="pagePartidos"/>
+       </widget>
+      </item>
+
+     </layout>
+    </item>
+   </layout>
+  </widget>
+
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
